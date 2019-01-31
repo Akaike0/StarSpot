@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Addon Author="Akaike" APIVersion="14" Name="MatchQueue" Description="">
-    <Script Name="MatchQueue.lua"/>
-    <Form Name="MatchQueue.xml"/>
-</Addon>
