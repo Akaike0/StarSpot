@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarSpot", "WildSpot\StarSpot.csproj", "{B5FF3642-2F62-40AD-BD27-CDCF15706ED6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarSpot", "StarSpot\StarSpot.csproj", "{B5FF3642-2F62-40AD-BD27-CDCF15706ED6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
