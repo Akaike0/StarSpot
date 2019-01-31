@@ -1,0 +1,3 @@
+F:\Documents\Coding\StarSpot\StarSpot\StarSpot\obj\x64\Release\StarSpot.csprojAssemblyReference.cache
+F:\Documents\Coding\StarSpot\StarSpot\StarSpot\obj\x64\Release\App.g.cs
+F:\Documents\Coding\StarSpot\StarSpot\StarSpot\obj\x64\Release\StarSpot_MarkupCompile.cache

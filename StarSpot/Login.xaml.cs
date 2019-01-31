@@ -68,7 +68,7 @@ namespace StarSpot
             try
             {
                 // Send the informations to the php script
-                string query = new WebClient().DownloadString("https://bot.mycode.io/star/licence/call.php?key=" + Properties.Settings.Default.serial_key + "&machine=" + CreateID.MachineCode.ToString());
+                string query = new WebClient().DownloadString("" + Properties.Settings.Default.serial_key + "&machine=" + CreateID.MachineCode.ToString());
 
                 switch (query.ToLower())
                 {
