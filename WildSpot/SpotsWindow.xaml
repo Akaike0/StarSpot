@@ -1,0 +1,73 @@
+﻿<metro:Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:tb="http://www.hardcodet.net/taskbar" 
+        xmlns:Controls="clr-namespace:Elysium.Controls;assembly=Elysium"
+        xmlns:metro="http://schemas.codeplex.com/elysium"
+        xmlns:params="http://schemas.codeplex.com/elysium/params" x:Class="StarSpot.SpotsWindow"        
+        WindowStartupLocation="CenterScreen" 
+        params:Design.Theme="Dark" 
+        params:Design.ContrastBrush="White"
+        params:Manager.AccentBrush="{x:Static metro:AccentBrushes.Blue}"
+        params:Manager.Theme="Dark" Width="332.118" Height="399.162" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="CanMinimize" BorderThickness="2" Topmost="True" Title="" IsHitTestVisible="True" ShowInTaskbar="False" WindowStyle="ToolWindow" Icon="Images/client_Icon.png" Closing="Window_Closing" 
+    >
+    <Grid Background="#FF171717">
+        <TabControl HorizontalAlignment="Left" Height="301" Margin="13,10,0,0" VerticalAlignment="Top" Width="299">
+            <TabItem Header="Normal">
+                <Grid Background="#FF1B1B1B" Margin="0,0,0,-1">
+                    <Menu HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="41" Width="276" Background="#FF212121">
+                        <MenuItem Header="File" BorderBrush="{x:Null}" Background="#00D41616">
+                            <MenuItem Header="Save" Click="normal_save_btn_Click"/>
+                            <MenuItem Header="Load" Click="normal_load_btn_Click"/>
+                        </MenuItem>
+                    </Menu>
+
+                    <ListBox x:Name="waypoint_normal_list" HorizontalAlignment="Left" Height="114" Margin="10,51,0,0" VerticalAlignment="Top" Width="276"/>
+                    <ListBox x:Name="waypoint_normal_list_2" HorizontalAlignment="Left" Height="114" Margin="10,51,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="276"/>
+                    <ListBox x:Name="waypoint_normal_list_3" HorizontalAlignment="Left" Height="114" Margin="10,51,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="276"/>
+
+                    <Button x:Name="add_normal_btn" Content="Add" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Width="78" Height="37" Click="add_normal_btn_Click" BorderBrush="#FF659DFF"/>
+                    <Button x:Name="delete_normal_btn" Content="Delete all" HorizontalAlignment="Left" Margin="191,207,0,0" VerticalAlignment="Top" Width="95" Height="37" Click="delete_normal_btn_Click" BorderBrush="#FF659DFF"/>
+                    <CheckBox x:Name="normal_spots_1_cbx" Content="#1" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Foreground="#FF424242" IsChecked="True" Checked="normal_spots_1_cbx_Checked"/>
+                    <CheckBox x:Name="normal_spots_2_cbx" Content="#2" HorizontalAlignment="Left" Margin="52,170,0,0" VerticalAlignment="Top" Foreground="#FF424242" IsChecked="False" Checked="normal_spots_2_cbx_Checked"/>
+                    <CheckBox x:Name="normal_spots_3_cbx" Content="#3" HorizontalAlignment="Left" Margin="94,170,0,0" VerticalAlignment="Top" Foreground="#FF424242" IsChecked="False" Checked="normal_spots_3_cbx_Checked"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Death">
+                <Grid Background="#FF1B1B1B">
+                    <Menu x:Name="death_spots_loading" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="41" Width="276" Background="#FF212121">
+                        <MenuItem Header="File">
+                            <MenuItem Header="Save" Click="death_save_btn_Click"/>
+                            <MenuItem Header="Load" Click="death_load_btn_Click"/>
+                        </MenuItem>
+                    </Menu>
+
+                    <ListBox x:Name="waypoint_death_list" HorizontalAlignment="Left" Height="114" Margin="10,51,0,0" VerticalAlignment="Top" Width="276"/>
+                    <ListBox x:Name="waypoint_death_second_list" Visibility="Collapsed" HorizontalAlignment="Left" Height="114" Margin="10,51,0,0" VerticalAlignment="Top" Width="276"/>
+
+                    <Button x:Name="add_death_btn" Content="Add" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Width="78" Height="37" Click="add_death_btn_Click" FontSize="13.333" BorderBrush="#FF659DFF"/>
+                    <Button x:Name="delete_death_btn" Content="Delete all" HorizontalAlignment="Left" Margin="191,207,0,0" VerticalAlignment="Top" Width="95" Height="37" Click="delete_death_btn_Click" BorderBrush="#FF659DFF"/>
+                    <CheckBox x:Name="death_respawn_1_cbx" Content="#1" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Foreground="#FF424242" IsChecked="True" Checked="death_respawn_1_cbx_Checked"/>
+                    <CheckBox x:Name="death_respawn_2_cbx" Content="#2" HorizontalAlignment="Left" Margin="66,170,0,0" VerticalAlignment="Top" Foreground="#FF424242" Checked="death_respawn_2_cbx_Checked"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Selling">
+                <Grid Background="#FF1B1B1B" Margin="0,0,0,-1" Height="254" VerticalAlignment="Top">
+                    <Menu HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="41" Width="276" Background="#FF212121">
+                        <MenuItem Header="File">
+                            <MenuItem Header="Save" Click="selling_save_btn_Click"/>
+                            <MenuItem Header="Load" Click="selling_load_btn_Click"/>
+                        </MenuItem>
+                    </Menu>
+
+                    <ListBox x:Name="waypoint_selling_list" HorizontalAlignment="Left" Height="123" Margin="10,51,0,0" VerticalAlignment="Top" Width="276"/>
+
+                    <Button x:Name="add_selling_btn" Content="Add" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Width="78" Height="37" Click="add_selling_btn_Click" FontSize="13.333" BorderBrush="#FF659DFF"/>
+                    <Button x:Name="delete_selling_btn" Content="Delete all" HorizontalAlignment="Left" Margin="191,207,0,0" VerticalAlignment="Top" Width="95" Height="37" Click="delete_selling_btn_Click" BorderBrush="#FF659DFF"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button x:Name="save_btn" Content="Ok" HorizontalAlignment="Left" Margin="237,318,0,0" VerticalAlignment="Top" Width="75" Height="37" FontSize="13.333" BorderBrush="#FF659DFF" Click="save_btn_Click"/>
+    </Grid>
+</metro:Window>

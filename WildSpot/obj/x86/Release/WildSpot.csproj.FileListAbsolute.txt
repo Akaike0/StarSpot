@@ -1,0 +1,71 @@
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\StarSpot.exe.config
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\StarSpot.exe
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\StarSpot.pdb
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\Elysium.dll
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\Elysium.Notifications.dll
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\SKGL.dll
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\Microsoft.Expression.Drawing.dll
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\Elysium.pdb
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\Elysium.xml
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\Elysium.Notifications.pdb
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\Elysium.Notifications.xml
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\bin\x86\Release\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\EnterKey.baml
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\Login.baml
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\MainWindow.baml
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\OptionsWindow.baml
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\SkillsMoreWindow.baml
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\SpotsWindow.baml
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\EnterKey.g.cs
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\Login.g.cs
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\MainWindow.g.cs
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\OptionsWindow.g.cs
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\SkillsMoreWindow.g.cs
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\SpotsWindow.g.cs
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\App.g.cs
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\StarSpot_MarkupCompile.cache
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\StarSpot.g.resources
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\StarSpot.Properties.Resources.resources
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\StarSpot.Radar.resources
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\WildSpot.csproj.GenerateResource.Cache
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\StarSpot.exe
+C:\Users\Akaike\Documents\Visual Studio 2013\Projects\StarSpot\WildSpot\obj\x86\Release\StarSpot.pdb
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\StarSpot.exe.config
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\StarSpot.exe
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\StarSpot.pdb
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\Elysium.dll
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\Elysium.Notifications.dll
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\SKGL.dll
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\Microsoft.Expression.Drawing.dll
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\Elysium.pdb
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\Elysium.xml
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\Elysium.Notifications.pdb
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\Elysium.Notifications.xml
+E:\Documents\Coding\StarSpot\WildSpot\bin\x86\Release\ru\Microsoft.Expression.Drawing.resources.dll
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\EnterKey.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\Login.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\MainWindow.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\MainWindowMini.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\OptionsWindow.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\PVPToolWindow.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\SkillsMoreWindow.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\SpotsWindow.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\LoginClick.baml
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\EnterKey.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\Login.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\MainWindow.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\MainWindowMini.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\OptionsWindow.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\PVPToolWindow.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\SkillsMoreWindow.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\SpotsWindow.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\LoginClick.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\App.g.cs
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\StarSpot_MarkupCompile.cache
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\StarSpot.g.resources
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\StarSpot.Properties.Resources.resources
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\StarSpot.Radar.resources
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\WildSpot.csproj.GenerateResource.Cache
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\WildSpot.csproj.CoreCompileInputs.cache
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\StarSpot.exe
+E:\Documents\Coding\StarSpot\WildSpot\obj\x86\Release\StarSpot.pdb

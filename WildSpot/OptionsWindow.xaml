@@ -1,0 +1,264 @@
+﻿<metro:Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:tb="http://www.hardcodet.net/taskbar" 
+        xmlns:Controls="clr-namespace:Elysium.Controls;assembly=Elysium"
+        xmlns:metro="http://schemas.codeplex.com/elysium"
+        xmlns:params="http://schemas.codeplex.com/elysium/params" x:Class="StarSpot.OptionsWindow"        
+        WindowStartupLocation="CenterScreen" 
+        params:Design.Theme="Dark" 
+        params:Design.ContrastBrush="White"
+        params:Manager.AccentBrush="{x:Static metro:AccentBrushes.Blue}"
+        params:Manager.Theme="Dark" Width="424.934" Height="616.324" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="CanMinimize" BorderThickness="2" Topmost="True" Title="" IsHitTestVisible="True" ShowInTaskbar="False" WindowStyle="ToolWindow" Closing="Window_Closing" Icon="Images/client_Icon.png" 
+    >
+    <Grid Background="#FF171717">
+        <TabControl HorizontalAlignment="Left" Margin="10,10,0,0" Width="400" Height="539" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <TabItem Header="Skills">
+                <Grid Background="#FF1D1D1D" Margin="0,0,-1,279">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="166*"/>
+                    </Grid.ColumnDefinitions>
+                    <metro:ToggleSwitch x:Name="skills_1_tgw" HorizontalAlignment="Left" Margin="106,18,0,0" VerticalAlignment="Top" Height="24" Width="49" Foreground="White" Grid.Column="1"/>
+                    <metro:ToggleSwitch x:Name="skills_2_tgw" HorizontalAlignment="Left" Margin="316,19,0,0" VerticalAlignment="Top" Height="22" Width="49" Grid.Column="1"/>
+                    <Button x:Name="skill_1_more" Content="More" HorizontalAlignment="Left" Margin="237,13,0,0" VerticalAlignment="Top" Width="74" Click="skill_1_more_Click" Grid.Column="1" Height="32" FontSize="11"/>
+                    <metro:ToggleSwitch x:Name="skills_3_tgw" HorizontalAlignment="Left" Margin="106,57,0,0" VerticalAlignment="Top" Height="22" Width="49" Grid.Column="1"/>
+                    <Button x:Name="skill_2_more" Content="More" HorizontalAlignment="Left" Margin="27,50,0,0" VerticalAlignment="Top" Width="74" Click="skill_2_more_Click" Grid.Column="1" Height="32" FontSize="11"/>
+                    <metro:ToggleSwitch x:Name="skills_4_tgw" HorizontalAlignment="Left" Margin="316,57,0,0" VerticalAlignment="Top" Height="22" Width="49" Grid.Column="1"/>
+                    <Button x:Name="skill_3_more" Content="More" HorizontalAlignment="Left" Margin="237,50,0,0" VerticalAlignment="Top" Width="74" Click="skill_3_more_Click" Grid.Column="1" Height="32" FontSize="11"/>
+                    <metro:ToggleSwitch x:Name="skills_5_tgw" HorizontalAlignment="Left" Margin="106,94,0,0" VerticalAlignment="Top" Height="22" Width="49" Grid.Column="1"/>
+                    <Button x:Name="skill_4_more" Content="More" HorizontalAlignment="Left" Margin="27,87,0,0" VerticalAlignment="Top" Width="74" Click="skill_4_more_Click" Grid.Column="1" Height="32" FontSize="11"/>
+                    <metro:ToggleSwitch x:Name="skills_6_tgw" HorizontalAlignment="Left" Margin="316,94,0,0" VerticalAlignment="Top" Height="22" Width="49" Grid.Column="1"/>
+                    <Button x:Name="skill_5_more" Content="More" HorizontalAlignment="Left" Margin="237,87,0,0" VerticalAlignment="Top" Width="74" Click="skill_5_more_Click" Grid.Column="1" Height="32" FontSize="11"/>
+                    <metro:ToggleSwitch x:Name="skills_7_tgw" HorizontalAlignment="Left" Margin="106,131,0,0" VerticalAlignment="Top" Height="22" Width="49" Grid.Column="1"/>
+                    <Button x:Name="skill_6_more" Content="More" HorizontalAlignment="Left" Margin="27,124,0,0" VerticalAlignment="Top" Width="74" Click="skill_6_more_Click" Grid.Column="1" Height="32" FontSize="11"/>
+                    <metro:ToggleSwitch x:Name="skills_8_tgw" HorizontalAlignment="Left" Margin="317,131,0,0" VerticalAlignment="Top" Height="22" Width="49" Grid.Column="1"/>
+                    <Button x:Name="skill_7_more" Content="More" HorizontalAlignment="Left" Margin="237,124,0,0" VerticalAlignment="Top" Width="74" Click="skill_7_more_Click" Grid.Column="1" Height="32" FontSize="11"/>
+                    <metro:ToggleSwitch x:Name="skills_9_tgw" HorizontalAlignment="Left" Margin="106,168,0,0" VerticalAlignment="Top" Height="22" Width="49" Grid.Column="1"/>
+                    <Button x:Name="skill_8_more" Content="More" HorizontalAlignment="Left" Margin="27,161,0,0" VerticalAlignment="Top" Width="74" Click="skill_8_more_Click" Grid.Column="1" Height="32" FontSize="11"/>
+                    <TextBox HorizontalAlignment="Left" Height="33" Margin="10,12,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Width="37" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" Grid.ColumnSpan="2" FontWeight="Bold" BorderThickness="0" Focusable="False"/>
+                    <TextBox HorizontalAlignment="Left" Height="32" Margin="195,13,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="37" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" FontWeight="Bold" Grid.Column="1" BorderThickness="0" Focusable="False"/>
+                    <TextBox HorizontalAlignment="Left" Height="32" Margin="10,50,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="37" FontWeight="Bold" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" Grid.ColumnSpan="2" BorderThickness="0" RenderTransformOrigin="0.514,0.5" Focusable="False"/>
+                    <TextBox HorizontalAlignment="Left" Height="32" Margin="195,50,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="37" FontWeight="Bold" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" BorderThickness="0" Grid.Column="1" Focusable="False"/>
+                    <TextBox HorizontalAlignment="Left" Height="32" Margin="10,87,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="37" FontWeight="Bold" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" Grid.ColumnSpan="2" BorderThickness="0" Focusable="False"/>
+                    <TextBox HorizontalAlignment="Left" Height="32" Margin="195,87,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="37" FontWeight="Bold" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" BorderThickness="0" Grid.Column="1" Focusable="False"/>
+                    <TextBox HorizontalAlignment="Left" Height="32" Margin="10,124,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" Width="37" FontWeight="Bold" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" Grid.ColumnSpan="2" BorderThickness="0" Focusable="False"/>
+                    <TextBox HorizontalAlignment="Left" Height="32" Margin="195,124,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" Width="37" FontWeight="Bold" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" BorderThickness="0" Grid.Column="1" Focusable="False"/>
+                    <TextBox HorizontalAlignment="Left" Height="32" Margin="10,161,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" Width="37" FontWeight="Bold" HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="#FF017BCD" Grid.ColumnSpan="2" BorderThickness="0" Focusable="False"/>
+                    <Button x:Name="skill_0_more" Content="More" HorizontalAlignment="Left" Margin="27,12,0,0" VerticalAlignment="Top" Width="74" Click="skill_0_more_Click" Grid.Column="1" Height="33" FontSize="11"/>
+                    <Grid Margin="0,0,0,-45" Background="#FF0F0F0F" Height="45" VerticalAlignment="Bottom" Grid.ColumnSpan="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="262*"/>
+                            <ColumnDefinition Width="137*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <ComboBox x:Name="ActionSet_CBX" Margin="42,10,10,10" Grid.Column="1" FontSize="10">
+                            <ComboBox.ItemBindingGroup>
+                                <BindingGroup/>
+                            </ComboBox.ItemBindingGroup>
+                        </ComboBox>
+                        <Label Content="Select your action-set:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="235" Foreground="#FF787878" FontSize="10" Margin="10,10,0,0"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Key Using" Height="42" VerticalAlignment="Bottom">
+                <Grid Background="#FF1D1D1D" Height="444" VerticalAlignment="Top">
+                    <Canvas HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="400" Background="#FF111111">
+                        <Label Content="Cooldown" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF008BFF" Width="65" Canvas.Left="99" Canvas.Top="5"/>
+                        <Label Content="Cast Time" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF008BFF" Width="68" Canvas.Left="184" Canvas.Top="5"/>
+                        <Label Content="Seconds" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Width="44" FontSize="9" Height="23" Canvas.Left="120" Canvas.Top="19"/>
+                        <Label Content="Milliseconds" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Width="58" FontSize="9" Height="23" Canvas.Left="189" Canvas.Top="19"/>
+                        <Label Content="Conditions" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF008BFF" Width="68" Canvas.Left="307" Canvas.Top="5"/>
+                        <Label Content="Key" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF008BFF" Width="65" Canvas.Left="9" Canvas.Top="5"/>
+                    </Canvas>
+
+                    <ComboBox x:Name="key_using_1_cbx" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_1_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_2_cbx" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_2_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_3_cbx" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_3_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_4_cbx" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_4_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_5_cbx" HorizontalAlignment="Left" Margin="10,216,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_5_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_6_cbx" HorizontalAlignment="Left" Margin="10,252,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_6_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_7_cbx" HorizontalAlignment="Left" Margin="10,288,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_7_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_8_cbx" HorizontalAlignment="Left" Margin="10,324,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_8_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_9_cbx" HorizontalAlignment="Left" Margin="10,360,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_9_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+                    <ComboBox x:Name="key_using_10_cbx" HorizontalAlignment="Left" Margin="10,396,0,0" VerticalAlignment="Top" Width="67" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_10_cooldown" HorizontalAlignment="Left" Height="31" Margin="103,396,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="61" BorderBrush="#FF303030"/>
+
+                    <Button x:Name="key_using_1_more" Content="More" HorizontalAlignment="Left" Margin="312,72,0,0" VerticalAlignment="Top" Width="75" Click="key_using_1_more_Click"/>
+                    <Button x:Name="key_using_2_more" Content="More" HorizontalAlignment="Left" Margin="312,108,0,0" VerticalAlignment="Top" Width="75" Click="key_using_2_more_Click"/>
+                    <Button x:Name="key_using_3_more" Content="More" HorizontalAlignment="Left" Margin="312,144,0,0" VerticalAlignment="Top" Width="75" Click="key_using_3_more_Click"/>
+                    <Button x:Name="key_using_4_more" Content="More" HorizontalAlignment="Left" Margin="312,180,0,0" VerticalAlignment="Top" Width="75" Click="key_using_4_more_Click"/>
+                    <Button x:Name="key_using_5_more" Content="More" HorizontalAlignment="Left" Margin="312,216,0,0" VerticalAlignment="Top" Width="75" Click="key_using_5_more_Click"/>
+                    <Button x:Name="key_using_6_more" Content="More" HorizontalAlignment="Left" Margin="312,252,0,0" VerticalAlignment="Top" Width="75" Click="key_using_6_more_Click"/>
+                    <Button x:Name="key_using_7_more" Content="More" HorizontalAlignment="Left" Margin="312,288,0,0" VerticalAlignment="Top" Width="75" Click="key_using_7_more_Click"/>
+                    <Button x:Name="key_using_8_more" Content="More" HorizontalAlignment="Left" Margin="312,324,0,0" VerticalAlignment="Top" Width="75" Click="key_using_8_more_Click"/>
+                    <Button x:Name="key_using_9_more" Content="More" HorizontalAlignment="Left" Margin="312,360,0,0" VerticalAlignment="Top" Width="75" Click="key_using_9_more_Click"/>
+                    <Button x:Name="key_using_10_more" Content="More" HorizontalAlignment="Left" Margin="312,396,0,0" VerticalAlignment="Top" Width="75" Click="key_using_10_more_Click"/>
+                    <TextBox x:Name="key_using_1_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_2_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_3_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_4_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_5_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_6_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_7_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_8_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_9_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                    <TextBox x:Name="key_using_10_ct_tbx" HorizontalAlignment="Left" Height="31" Margin="188,396,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="66" BorderBrush="#FF303030"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Other" Margin="90,0,-90,0">
+                <Grid Background="#FF1D1D1D">
+                    <TabControl Margin="0,0,0,-20" Height="511" VerticalAlignment="Top">
+                        <TabItem Header="Page 1">
+                            <Grid Background="#FF1D1D1D" Height="446" VerticalAlignment="Top">
+                                <CheckBox x:Name="enable_looting_cbx" Content="Enable looting" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="114" BorderBrush="#FF303030" Foreground="#FF404040"/>
+                                <Label Content="Looting" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="51" Foreground="#FF008BFF"/>
+                                <Label Content="Movement" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="67" Foreground="#FF008BFF"/>
+                                <CheckBox x:Name="enable_autoselling_use_mount" Content="Use grinding mount" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Width="141" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will use your mount while it's on normal spots."/>
+                                <CheckBox x:Name="enable_random_jumping_cbx" Content="Enable random jumping" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="172" BorderBrush="#FF303030" Foreground="#FF404040"/>
+                                <TextBox x:Name="random_jumping_timer_tbx" HorizontalAlignment="Left" Height="22" Margin="267,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51" BorderBrush="#FF303030"/>
+                                <Label Content="Jump every" HorizontalAlignment="Left" Margin="192,89,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Death Spots" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="76" Foreground="#FF008BFF"/>
+                                <CheckBox x:Name="enable_tabbing_after_death" Content="Enable tabbing" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="114" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="With this option the bot will try to find enemies after death."/>
+                                <Label Content="Hunting" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="67" Foreground="#FF008BFF"/>
+                                <Label Content="Level range" HorizontalAlignment="Left" Margin="10,292,0,0" VerticalAlignment="Top" Foreground="#FF404040" ToolTip="The bot will only attack enemies above this level."/>
+                                <TextBox x:Name="hunting_level_range_tbx" HorizontalAlignment="Left" Height="26" Margin="93,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" BorderBrush="#FF303030"/>
+
+                                <Label Content="Attack range" HorizontalAlignment="Left" Margin="179,291,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="attack_range_tbx" HorizontalAlignment="Left" Height="26" Margin="261,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" BorderBrush="#FF303030"/>
+                                <Label Content="m." HorizontalAlignment="Left" Margin="316,292,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="sec." HorizontalAlignment="Left" Margin="323,89,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Search range" HorizontalAlignment="Left" Margin="10,324,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="search_range_tbx" HorizontalAlignment="Left" Height="26" Margin="93,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" BorderBrush="#FF303030"/>
+                                <Label Content="m." HorizontalAlignment="Left" Margin="148,323,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <CheckBox x:Name="enable_aim_friendly_target" Content="Aim friendly targets" HorizontalAlignment="Left" Margin="197,114,0,0" VerticalAlignment="Top" Width="141" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="If you enable this option, you will be able to aim friendly targets in the combat mode."/>
+                                <CheckBox x:Name="fight_movement_cbx" Content="Fight movement" HorizontalAlignment="Left" Margin="197,136,0,0" VerticalAlignment="Top" Width="141" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="With this feature the character will move itself while fighting."/>
+                                <CheckBox x:Name="enable_walking_in_circle" Content="Walk in circle" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Width="106" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="With this option the bot will walk in a circle, so at the end of the spots the bot will walk directly to the first spot again."/>
+                                <CheckBox x:Name="enable_attack_player_mobs" Content="Attack mobs from other players" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will not ignore mobs which already have aggro from other players."/>
+                                <CheckBox x:Name="enable_move_to_closest_spot" Content="Search closest spot after fight" HorizontalAlignment="Left" Margin="185,327,0,0" VerticalAlignment="Top" Width="196" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will go to the closest spot after a fight."/>
+                                <CheckBox x:Name="enable_defending_after_death" Content="Enable defending" HorizontalAlignment="Left" Margin="129,210,0,0" VerticalAlignment="Top" Width="127" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="We bot will defend itself while it is on the death spots."/>
+                                <CheckBox x:Name="enable_autoselling_use_mount_selling_death_cbx" Content="Use mount on selling/death spots" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" Width="222" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will use your mount while it's on the selling spots."/>
+                                <Label Content="Shortcuts" HorizontalAlignment="Left" Margin="192,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="64" Foreground="#FF008BFF"/>
+                                <CheckBox x:Name="disable_start_stop_shortcut_cbx" Content="Disable start/stop shortcut" HorizontalAlignment="Left" Margin="197,40,0,0" VerticalAlignment="Top" Width="184" BorderBrush="#FF303030" Foreground="#FF404040"/>
+                                <CheckBox x:Name="enable_ignore_players" Content="Ignore Players" HorizontalAlignment="Left" Margin="228,262,0,0" VerticalAlignment="Top" Width="162" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will ignore players, even if they attack it."/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Page 2">
+                            <Grid Background="#FF1D1D1D" Height="453" VerticalAlignment="Top">
+                                <Label Content="Auto selling" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="76" Foreground="#FF008BFF"/>
+                                <CheckBox x:Name="enable_autoselling_cbx" Content="Enable after" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="95" BorderBrush="#FF303030" Foreground="#FF404040"/>
+                                <TextBox x:Name="auto_selling_duration_tbx" HorizontalAlignment="Left" Height="26" Margin="110,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="min." HorizontalAlignment="Left" Margin="175,37,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Healing" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="76" Foreground="#FF008BFF"/>
+                                <CheckBox x:Name="healing_to_100_usekeys_cbx" Content="Use 'Key Using' while healing" HorizontalAlignment="Left" Margin="12,203,0,0" VerticalAlignment="Top" Width="199" BorderBrush="#FF303030" Foreground="#FF404040"/>
+
+                                <Label Content="Mods" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="40" Foreground="#FF008BFF"/>
+                                <ComboBox x:Name="mods_cbx" HorizontalAlignment="Left" Margin="10,260,0,0" VerticalAlignment="Top" Width="380" Height="32"/>
+                                <Label Content="Heal after a fight if health is under" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="healing_under_tbx" HorizontalAlignment="Left" Height="26" Margin="204,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="%" HorizontalAlignment="Left" Margin="269,120,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="PVP" HorizontalAlignment="Left" Margin="10,297,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="40" Foreground="#FF008BFF"/>
+                                <Button x:Name="pvp_accept_btn" Content="Accept Tool" HorizontalAlignment="Left" Margin="10,322,0,0" VerticalAlignment="Top" Width="96" Click="pvp_accept_btn_Click" ToolTip="With this tool the bot is able too accept an pvp match."/>
+                                <Label Content="Gathering" HorizontalAlignment="Left" Margin="130,297,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="69" Foreground="#FF008BFF"/>
+                                <CheckBox x:Name="gathering_attack_nodes_cbx" Content="Attack the nodes" HorizontalAlignment="Left" Margin="134,329,0,0" VerticalAlignment="Top" Foreground="#FF404040" BorderBrush="#FF303030" ToolTip="With this option the bot will attack the nodes instead of using a tool."/>
+                                <Label Content="[Experimental]" HorizontalAlignment="Left" Margin="199,297,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="85" Foreground="#FF3B6281"/>
+                                <Label Content="Heal until" HorizontalAlignment="Left" Margin="12,150,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="healing_until_tbx" HorizontalAlignment="Left" Height="26" Margin="78,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="%" HorizontalAlignment="Left" Margin="143,151,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <CheckBox x:Name="ignore_shield_cbx" Content="Ignore shield" HorizontalAlignment="Left" Margin="12,181,0,0" VerticalAlignment="Top" Width="105" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="With this option the bot will ignore the shield while healing."/>
+                                <CheckBox x:Name="enable_autoselling_attack_mobs" Content="Attack mobs" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="95" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="With this option we bot will attack monsters while running on the selling spots." RenderTransformOrigin="0.5,0.5"/>
+                                <CheckBox x:Name="enable_go_to_vendor_after_death" Content="Go to vendor after death" HorizontalAlignment="Left" Margin="112,68,0,0" VerticalAlignment="Top" Width="170" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will go to the vendor after each death."/>
+                                <CheckBox x:Name="enable_autoselling_ignore_mobs" Content="Ignore mobs" HorizontalAlignment="Left" Margin="214,40,0,0" VerticalAlignment="Top" Width="102" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="With this option we bot will attack monsters while running on the selling spots." RenderTransformOrigin="0.5,0.5"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Page 3">
+                            <Grid Background="#FF1D1D1D" Height="453" VerticalAlignment="Top">
+                                <Label Content="Timer" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="76" Foreground="#FF008BFF"/>
+                                <CheckBox x:Name="enable_stop_after_cbx" Content="Stop at" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="86" BorderBrush="#FF303030" Foreground="#FF404040"/>
+                                <TextBox x:Name="stop_after_min_tbx" HorizontalAlignment="Left" Height="26" Margin="101,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="time" HorizontalAlignment="Left" Margin="166,36,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <CheckBox x:Name="enable_start_after_cbx" Content="Start after" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="83" BorderBrush="#FF303030" Foreground="#FF404040"/>
+                                <TextBox x:Name="start_after_tbx" HorizontalAlignment="Left" Height="26" Margin="101,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="min." HorizontalAlignment="Left" Margin="166,68,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Auto relogin" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="76" Foreground="#FF008BFF" ToolTip="The bot will login again if you get for example a ingame disconnection."/>
+                                <TextBox x:Name="autologin_password" HorizontalAlignment="Left" Height="29" Margin="123,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" BorderBrush="#FF303030"/>
+                                <Label Content="Account password" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Leave it blank to disable this function" HorizontalAlignment="Left" VerticalAlignment="Top" Width="380" Foreground="#FF787878" FontSize="10" Margin="10,164,0,0" Background="#FF171717"/>
+                                <Label Content="Make sure that your email address is saved in Wildstar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="380" Foreground="#FF787878" FontSize="10" Margin="10,186,0,0" Background="#FF212121"/>
+                                <Label Content="Hacks" HorizontalAlignment="Left" Margin="10,213,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="76" Foreground="#FF008BFF" ToolTip="The bot will login again if you get for example a ingame disconnection."/>
+                                <CheckBox x:Name="enable_no_gpu_rendering_cbx" Content="Disable most GPU rendering" HorizontalAlignment="Left" Margin="10,243,0,0" VerticalAlignment="Top" Width="190" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will disable the ingame 3D rendering to save gpu resources."/>
+                                <CheckBox x:Name="enable_maximum_zoom_cbx" Content="Enable maximum zoom" HorizontalAlignment="Left" Margin="205,243,0,0" VerticalAlignment="Top" Width="158" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="You will be able to zoom very far away."/>
+
+                                <!-- Unstucking -->
+                                <Label Content="Attack unstucking" HorizontalAlignment="Left" Margin="10,291,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="114" Foreground="#FF008BFF" ToolTip="The bot will leave the target if it can't reach it under this time."/>
+                                <TextBox x:Name="attack_unstucking_tbx" HorizontalAlignment="Left" Height="26" Margin="124,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="sec." HorizontalAlignment="Left" Margin="189,321,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Duration" HorizontalAlignment="Left" Margin="10,351,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="attack_unstucking_duration_tbx" HorizontalAlignment="Left" Height="26" Margin="123,352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="sec." HorizontalAlignment="Left" Margin="189,351,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Run unstucking" HorizontalAlignment="Left" Margin="249,291,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="114" Foreground="#FF008BFF" ToolTip="The bot will try to unstuck itself if it can't reach a spot under this time."/>
+                                <Label Content="Activation time" HorizontalAlignment="Left" Margin="10,321,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="run_unstucking_time_tbx" HorizontalAlignment="Left" Height="26" Margin="249,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="sec." HorizontalAlignment="Left" Margin="314,321,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Exit Wildstar after" HorizontalAlignment="Left" Margin="10,384,0,0" VerticalAlignment="Top" Foreground="#FF404040" ToolTip="This function will turn off your Wildstar client after X run unstucking attempts."/>
+                                <TextBox x:Name="exit_wildstar_unstucking_tbx" HorizontalAlignment="Left" Height="26" Margin="123,383,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47" BorderBrush="#FF303030"/>
+                                <Label Content="attempts" HorizontalAlignment="Left" Margin="175,384,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <CheckBox x:Name="enable_reduce_fps_cbx" Content="Reduce FPS " HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" Width="91" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="It will reduce the fps of the game to reduce the cpu usage."/>
+                                <Label Content="(for example 17:05 or 07:05)" HorizontalAlignment="Left" Margin="200,36,0,0" VerticalAlignment="Top" Foreground="#FF4F4F4F"/>
+                                <CheckBox x:Name="enable_stop_after_exit_wildstar" Content="Exit Wildstar" HorizontalAlignment="Left" Margin="205,72,0,0" VerticalAlignment="Top" Width="104" BorderBrush="#FF303030" Foreground="#FF404040"/>
+                                <Button x:Name="pvp_accept_btn_Copy" Content="Enter click" HorizontalAlignment="Left" Margin="292,128,0,0" VerticalAlignment="Top" Width="63" Click="btn_login_click" ToolTip="With this tool the bot is able too enter the world after the logout." Height="29" FontSize="10"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Page 4" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="88">
+                            <Grid Background="#FF1D1D1D">
+                                <Label Content="Player detection" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.52" Width="95" Foreground="#FF008BFF"/>
+                                <Label Content="Stop if player follows you more than" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="player_detection_stop_tbx" HorizontalAlignment="Left" Height="26" Margin="216,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="sec." HorizontalAlignment="Left" Margin="281,35,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Detection radius" HorizontalAlignment="Left" Margin="9,65,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="player_detection_radius_tbx" HorizontalAlignment="Left" Height="26" Margin="110,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="m." HorizontalAlignment="Left" Margin="175,66,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <Label Content="Logout for" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="player_detection_logout_for_tbx" HorizontalAlignment="Left" Height="26" Margin="81,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="m." HorizontalAlignment="Left" Margin="146,98,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <CheckBox x:Name="enable_keyusing_logout" Content="Use 'Key Using' before logout" HorizontalAlignment="Left" Margin="189,101,0,0" VerticalAlignment="Top" Width="201" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="Before logout the bot will use the &quot;Key Using&quot; function."/>
+                                <CheckBox x:Name="enable_player_detection_alert" Content="Sound alert" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Width="95" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will play a beep sound and restore the client window."/>
+                                <Label Content="Play sound every" HorizontalAlignment="Left" Margin="110,131,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                                <TextBox x:Name="player_detection_alert_duration" HorizontalAlignment="Left" Height="26" Margin="214,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FF303030"/>
+                                <Label Content="sec." HorizontalAlignment="Left" Margin="279,131,0,0" VerticalAlignment="Top" Foreground="#FF404040"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Blacklist" Height="42" VerticalAlignment="Bottom" Margin="-63,0,63,0">
+                <Grid Background="#FF1D1D1D" Height="358" VerticalAlignment="Top">
+                    <ListBox x:Name="blacklist_lbx" HorizontalAlignment="Left" Height="193" Margin="10,10,0,0" VerticalAlignment="Top" Width="380"/>
+                    <Button x:Name="add_npc_btn" Content="Add " HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Width="75" BorderBrush="#FF039AFF" Click="add_npc_btn_Click"/>
+                    <Button x:Name="delete_npc_btn" Content="Delete" HorizontalAlignment="Left" Margin="90,208,0,0" VerticalAlignment="Top" Width="75" BorderBrush="#FF039AFF" Click="delete_npc_btn_Click"/>
+                    <Grid Margin="0,0,1,-23" Background="#FF0F0F0F" Height="23" VerticalAlignment="Bottom">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="262*"/>
+                            <ColumnDefinition Width="137*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Select a NPC and click on the add button. The bot will not attack these mobs!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="389" Foreground="#FF787878" FontSize="10" Grid.ColumnSpan="2" Margin="10,0,0,0"/>
+                    </Grid>
+
+                    <CheckBox x:Name="use_whitelist_cbx" Content="Use this as a whitelist" HorizontalAlignment="Left" Margin="240,215,0,0" VerticalAlignment="Top" Width="150" BorderBrush="#FF303030" Foreground="#FF404040" ToolTip="The bot will attack only the mobs on this list"/>
+                    <TextBox x:Name="blacklist_npc_tbx" HorizontalAlignment="Left" Height="31" Margin="10,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" BorderBrush="#FF303030"/>
+                    <Button x:Name="add_npc_by_name_btn" Content="Add" HorizontalAlignment="Left" Margin="315,304,0,0" VerticalAlignment="Top" Width="75" BorderBrush="#FF039AFF" Click="add_npc_by_name_btn_Click"/>
+                    <Label Content="You can also add an NPC by entering the name" HorizontalAlignment="Left" Margin="10,274,0,0" VerticalAlignment="Top" Foreground="#FF3A3A3A"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</metro:Window>
