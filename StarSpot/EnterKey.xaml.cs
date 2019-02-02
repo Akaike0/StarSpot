@@ -31,7 +31,7 @@ namespace StarSpot
             if(key_lbl.Text != "") // Save the key into the settings if it's not null
             {
                 // Send the informations to the php script
-                string query = new WebClient().DownloadString("https://bot.mycode.io/star/licence/activate.php?key=" + key_lbl.Text + "&machine=" + Login.machine_id);
+                string query = new WebClient().DownloadString("" + key_lbl.Text + "&machine=" + Login.machine_id);
 
                 // Save the key into the settings
                 Properties.Settings.Default.serial_key = key_lbl.Text;
